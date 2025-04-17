@@ -1,4 +1,4 @@
-package com.employeeManagement.model;
+package com.studentManagement.model;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

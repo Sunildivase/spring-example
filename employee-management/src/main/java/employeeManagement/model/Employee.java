@@ -1,4 +1,4 @@
-package com.employeeManagement.model;
+package employeeManagement.model;
 
 import lombok.*;
 

@@ -3,12 +3,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean id="employeeService" class="com.employeeManagement.service.EmployeeService">
+    <bean id="employeeService" class="com.studentManagement.service.EmployeeService">
 <!--                <property name="employee" ref="employee" />-->
         <constructor-arg ref="employee"/>
     </bean>
 
-    <bean id="employee" class="com.employeeManagement.model.Employee">
+    <bean id="employee" class="com.studentManagement.model.Employee">
         <property name="empId" value="1" />
         <property name="empName" value="john" />
         <property name="age" value="25" />

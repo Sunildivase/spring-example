@@ -1,7 +1,6 @@
-package com.employeeManagement;
+package employeeManagement;
 
-import com.employeeManagement.model.Employee;
-import com.employeeManagement.service.EmployeeService;
+import employeeManagement.service.EmployeeService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -25,7 +24,7 @@ public class App {
 
 
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-        EmployeeService employeeService = context.getBean("employeeService",EmployeeService.class);
+        EmployeeService employeeService = context.getBean("employeeService", EmployeeService.class);
 
         employeeService.displayEmployee();
     }

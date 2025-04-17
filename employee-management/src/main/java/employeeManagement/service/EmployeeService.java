@@ -1,7 +1,7 @@
-package com.employeeManagement.service;
+package employeeManagement.service;
 
 
-import com.employeeManagement.model.Employee;
+import employeeManagement.model.Employee;
 import lombok.*;
 
 
