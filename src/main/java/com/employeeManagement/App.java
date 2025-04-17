@@ -10,7 +10,7 @@ public class App {
     public static void main( String[] args )
     {
 //        EmployeeService employeeService = new EmployeeService();
-//
+
 //        Employee employee = Employee.builder()
 //        .empId(1)
 //        .empName("john")
@@ -21,8 +21,8 @@ public class App {
 //        employeeService.setEmployee(employee);
 //
 //        employeeService.displayEmployee();
-//
-//
+
+
 
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         EmployeeService employeeService = context.getBean("employeeService",EmployeeService.class);

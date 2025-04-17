@@ -8,6 +8,7 @@ import lombok.*;
 @Setter
 @Builder
 @Data
+@Getter
 public class Employee {
     private int empId;
     private String empName;

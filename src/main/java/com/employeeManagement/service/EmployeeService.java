@@ -1,5 +1,6 @@
 package com.employeeManagement.service;
 
+
 import com.employeeManagement.model.Employee;
 import lombok.*;
 
@@ -11,7 +12,7 @@ import lombok.*;
 @Data
 public class EmployeeService {
 
-    private Employee employee;
+    public Employee employee;
 
     // we will ask this to spring.
     public void createEmployee(){
